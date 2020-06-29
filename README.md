@@ -1,9 +1,16 @@
 # GLEXCESS
 
-GLEXCESS is an OpenGL demos which was written by [Paolo "Bustard" Martella](http://www.glexcess.com) in C++, and
-later, in [2003](), Pepijn Van Eeckhoudt ported it into Java with JOGL 1.0
+GLEXCESS is a collection of OpenGL demos which was originally written by [Paolo "Bustard" Martella](http://www.glexcess.com)
+in C++, and later, in 2003, Pepijn Van Eeckhoudt ported it into Java with JOGL 1.0. This repo is my attempt to adapt it
+for JOGL 2.0.
 
-This git is my attempt to adapt it for JOGL 2.0
+# Getting Started
+
+    # build
+    ./gradlew jar
+
+    # run
+    java -jar build/lib/glexcess.jar
 
 # License
 
