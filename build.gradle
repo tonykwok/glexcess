@@ -1,0 +1,21 @@
+apply plugin: 'java'
+
+jar {
+    manifest {
+        attributes('Main-Class': 'demos.glexcess.GLXS')
+    }
+
+    from {
+        configurations.compile.collect {
+            it.isDirectory() ? it : zipTree(it)
+        }
+    }
+}
+
+configurations {
+    jar.archiveName = 'glexcess.jar'
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+}
