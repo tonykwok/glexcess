@@ -1,6 +1,6 @@
 # GLExcess
 
-![Screenshot](https://tonykwok.github.io/assets/images/glexcess.png)
+![Screenshot](https://tonykwok.github.io/archives/assets/images/glexcess.png)
 
 **GLExcess** is a collection of OpenGL demos which was originally written by [Paolo "Bustard" Martella](http://www.glexcess.com)
 in C++, and later, in 2003, Pepijn Van Eeckhoudt ported it into Java with JOGL 1.0. This repo is my attempt to adapt it
